@@ -17,9 +17,6 @@
           if (session_status() !== PHP_SESSION_ACTIVE) {
               session_start();
           }
-echo '<pre>';
-var_dump($_POST);
-echo '</pre>';
           // 1. Lógica para controlar acciones (guardar usuario, verificar login, etc.)
           if (isset($_GET["route"]) && isset($_GET["action"])) {
 

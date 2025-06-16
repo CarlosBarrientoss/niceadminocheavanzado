@@ -17,7 +17,7 @@ class UserController {
             }
 
             // Encriptar la contraseña
-            $passwordHash = password_hash($clave, PASSWORD_DEFAULT);
+            $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
             $data = [
                 "user_name" => $name,

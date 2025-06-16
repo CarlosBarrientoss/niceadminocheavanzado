@@ -10,19 +10,19 @@
                 <div class="row mb-3">
                   <label for="inputText" class="col-sm-2 col-form-label">Nombre</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputText">
+                    <input type="text" name="name" class="form-control" id="inputText">
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputEmail" class="col-sm-2 col-form-label">Correo</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail">
+                    <input type="email" name="email" class="form-control" id="inputEmail">
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
                   <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword">
+                    <input type="password" name="password" class="form-control" id="inputPassword">
                   </div>
                 </div>
                 <div class="text-center">
