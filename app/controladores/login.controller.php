@@ -14,7 +14,7 @@ class LoginController {
             $response = LoginModel::mdlVerifyUser($email);
 
 
-        //    if ($response && password_verify($password, $response["user_password"])) {
+        
               if ($response && $password === $response["user_password"]) {
 
                 if (session_status() !== PHP_SESSION_ACTIVE) {
